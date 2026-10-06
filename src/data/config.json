@@ -1,0 +1,103 @@
+{
+  "brand": {
+    "name": "TK Fireworks",
+    "tagline": "The Spark of Traditions",
+    "website": "https://tkfireworks.com",
+    "description": "Premium fireworks for safe, joyful celebrations"
+  },
+  "contact": {
+    "primaryPhone": "+91 6374749585",
+    "secondaryPhone": "+91 6374749585",
+    "phoneFormatted": "+91-6374-749-585",
+    "email": "tkfirework@gmail.com",
+    "whatsappNumber": "916374749585",
+    "whatsappDefaultMessage": "Hi, I'm interested in TK Fireworks products. Please assist."
+  },
+  "emergency": {
+    "fire": "101",
+    "ambulance": "102",
+    "police": "100",
+    "generalEmergency": "112"
+  },
+  "addresses": {
+    "factory": {
+      "label": "Factory Location",
+      "address": "TK FIREWORKS FACTORY, RANGASAMUDRAM GUDIYATHAM VELLORE TAMILNADU 632602",
+      "phone": "+91 6374749585",
+      "email": "tkfirework@gmail.com",
+      "mapUrl": "https://maps.google.com/?q=TK+FIREWORKS+FACTORY+RANGASAMUDRAM+GUDIYATHAM+VELLORE+TAMILNADU+632602"
+    }
+  },
+  "social": {
+    "facebook": "https://facebook.com/tkfireworks",
+    "instagram": "https://www.instagram.com/tkfireworks/",
+    "youtube": "https://youtube.com/@tkfireworks89?si=FbqhQS2JQnMGSotH",
+    "whatsapp": "https://wa.me/916374749585",
+    "twitter": "https://twitter.com/tkfireworks",
+    "linkedin": "https://linkedin.com/company/tkfireworks",
+    "instagramReels": "https://www.instagram.com/tkfireworks/reels/"
+  },
+  "links": {
+    "facebook": "https://www.facebook.com/tkfireworks",
+    "instagram": "https://www.instagram.com/tkfireworks/",
+    "twitter": "https://twitter.com/tkfireworks",
+    "youtube": "https://youtube.com/@tkfireworks89?si=FbqhQS2JQnMGSotH",
+    "whatsapp": "https://wa.me/916374749585",
+    "linkedin": "https://www.linkedin.com/company/tkfireworks",
+    "bulkOrders": "https://tkfireworks.com/bulk-orders",
+    "catalog": "https://tkfireworks.com/catalog",
+    "instagramReels": "https://www.instagram.com/tkfireworks/reels/"
+  },
+  "media": {
+    "youtube": {
+      "channelUrl": "https://youtube.com/@tkfireworks89?si=FbqhQS2JQnMGSotH",
+      "channelHandle": "@tkfireworks89",
+      "videoUrl": "https://www.youtube.com/embed/iUtnZpzkbG8"
+    },
+    "instagramReels": "https://www.instagram.com/tkfireworks/reels/"
+  },
+  "api": {
+    "baseUrl": "https://api.tkfireworks.com",
+    "timeout": 5000
+  },
+  "images": {
+    "basePath": "/images",
+    "productPath": "/images",
+    "logoSize": {
+      "mobile": 110,
+      "tablet": 160,
+      "desktop": 200
+    }
+  },
+  "features": {
+    "enableNotifications": true,
+    "enableWishlist": true,
+    "enableBulkOrders": true,
+    "enableGallery": true,
+    "enableFAQ": true
+  },
+  "pwa": {
+    "enabled": true,
+    "appName": "TK Fireworks",
+    "shortName": "TKFW",
+    "themeColor": "#000000",
+    "backgroundColor": "#000000"
+  },
+  "analytics": {
+    "ga4MeasurementId": "G-0000000000",
+    "enableAnalytics": true
+  },
+  "siteName": "TK Fireworks",
+  "primaryLanguage": "en",
+  "__FLATTENED_ROOT_PROPERTIES__": "Added for easy direct access",
+  "whatsappNumber": "916374749585",
+  "email": "tkfirework@gmail.com",
+  "ga4MeasurementId": "G-0000000000",
+  "primaryPhone": "+91 6374749585",
+  "whatsappDefaultMessage": "Hi, I'm interested in TK Fireworks products. Please assist.",
+  "integrationEmail": "tkfireworks8999@gmail.com",
+  "developerName": "shiruvvvv",
+  "developerEmail": "shiryxz@gmail.com",
+  "currentYear": 2026,
+  "getMessagesFromId": "dummy-message-id"
+}

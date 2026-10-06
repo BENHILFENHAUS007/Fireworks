@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Keep real files such as sitemap.xml and robots.txt accessible; route app paths to React.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
