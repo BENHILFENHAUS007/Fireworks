@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Star, Shield, Zap, Facebook, Instagram, Mail, Youtube, MapPin, Phone } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import configData from '../data/config.json';
 import { useGA4 } from '../hooks/useGA4';
 import { useFavorites } from '../hooks/useFavorites';
@@ -505,8 +505,7 @@ export const Home: React.FC<HomeProps> = ({ theme }) => {
               
               <p className="text-gray-300 leading-relaxed text-sm md:text-base">
                 TK FIREWORKS FACTORY<br />
-                RANGASAMUDRAM GUDIYATHAM<br />
-                VELLORE TAMILNADU 632602
+                RANGASAMUDRAM <br />
               </p>
               
               {/* Quick Links Section */}
@@ -587,6 +586,61 @@ export const Home: React.FC<HomeProps> = ({ theme }) => {
               );
             })}
           </motion.div>
+          <section className="py-12 px-4">
+  <div className="max-w-6xl mx-auto">
+
+    <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">
+      Explore TK Fireworks
+    </h2>
+
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+
+      <Link
+        to="/catalog"
+        className="text-gray-300 hover:text-orange-400 transition-colors"
+      >
+        Fireworks Products
+      </Link>
+
+      <Link
+        to="/gallery"
+        className="text-gray-300 hover:text-orange-400 transition-colors"
+      >
+        Fireworks Gallery
+      </Link>
+
+      <Link
+        to="/about-us"
+        className="text-gray-300 hover:text-orange-400 transition-colors"
+      >
+        About TK Fireworks
+      </Link>
+
+      <Link
+        to="/safety"
+        className="text-gray-300 hover:text-orange-400 transition-colors"
+      >
+        Fireworks Safety
+      </Link>
+
+      <Link
+        to="/faq"
+        className="text-gray-300 hover:text-orange-400 transition-colors"
+      >
+        Fireworks FAQ
+      </Link>
+
+      <Link
+        to="/contact"
+        className="text-gray-300 hover:text-orange-400 transition-colors"
+      >
+        Contact TK Fireworks
+      </Link>
+
+    </div>
+
+  </div>
+</section>
 
           {/* Bottom - Copyright with Developer Credit */}
           <div className="text-center space-y-2">
@@ -600,7 +654,7 @@ export const Home: React.FC<HomeProps> = ({ theme }) => {
                 className="text-orange-400 hover:text-orange-300 transition-colors font-semibold"
                 title="Contact Developer"
               >
-                shiruvvvv 🧑‍💻
+                shiruvvvv🧑‍💻
               </a>
             </p>
           </div>

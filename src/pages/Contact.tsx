@@ -19,7 +19,7 @@ export const Contact: React.FC<ContactProps> = ({ theme }) => {
   
   // Get contact info from config
   const displayEmail = configData.contact.email || 'tkfirework@gmail.com';
-  const factoryAddress = configData.addresses.factory.address || 'TK FIREWORKS FACTORY, RANGASAMUDRAM GUDIYATHAM VELLORE TAMILNADU 632602';
+  const factoryAddress = configData.addresses.factory.address || 'TK FIREWORKS FACTORY, RANGASAMUDRAM ';
   
   const [businessForm, setBusinessForm] = useState({
     name: '',
